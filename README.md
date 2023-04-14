@@ -110,7 +110,7 @@ pip install .
 Hosting web applications is a common case for clouds. Connect to your VM, and clone the repository containing a simple web application:
 
 ```bash
-https://github.com/virtualdata-cloud-i2i/webapp.git
+git clone https://github.com/virtualdata-cloud-i2i/webapp.git
 ```
 
 Enter the repository, and execute:
