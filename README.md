@@ -111,6 +111,10 @@ Hosting web applications is a common case for clouds. Connect to your VM, and cl
 
 ```bash
 git clone https://github.com/virtualdata-cloud-i2i/webapp.git
+
+# because coding overnight is bad...
+pip install dash
+pip install dash_bootstrap_components
 ```
 
 Enter the repository, and execute:
