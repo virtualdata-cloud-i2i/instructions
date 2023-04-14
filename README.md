@@ -95,7 +95,7 @@ pip install .
 For the sake of the exercises, we will play with a simple user-based code (that could be your code in the future!). On your VM, simply clone the repository:
 
 ```bash
-git clone git@github.com:virtualdata-cloud-i2i/myapp.git
+git clone https://github.com/virtualdata-cloud-i2i/myapp.git
 ```
 
 and execute:
@@ -110,13 +110,13 @@ pip install .
 Hosting web applications is a common case for clouds. Connect to your VM, and clone the repository containing a simple web application:
 
 ```bash
-git clone git@github.com:virtualdata-cloud-i2i/webapp.git
+https://github.com/virtualdata-cloud-i2i/webapp.git
 ```
 
 Enter the repository, and execute:
 
 ```bash
-cd /path/to/virtualdata
+cd /path/to/webapp
 python3 index.py
 ```
 
