@@ -76,7 +76,9 @@ Python 3.10.9
 Then install and activate the environment:
 
 ```bash
-cd /path/to/virtualdata
+git clone https://github.com/virtualdata-cloud-i2i/myapp.git
+
+cd /path/to/myapp
 conda env create -f environment.yml
 conda activate vd
 ```
@@ -84,7 +86,7 @@ conda activate vd
 and install the specific application dependencies:
 
 ```bash
-cd /path/to/virtualdata
+cd /path/to/myapp
 pip install .
 ```
 
